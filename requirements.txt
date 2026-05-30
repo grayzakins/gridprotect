@@ -1,0 +1,5 @@
+# Root requirements file: Vercel installs these for the Python serverless functions
+# in api/. The engine package and its deps are pulled in via engine/requirements.txt.
+numpy>=1.26
+scipy>=1.11
+scikit-learn>=1.3

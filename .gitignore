@@ -1,0 +1,28 @@
+# dependencies
+node_modules/
+__pycache__/
+*.pyc
+.pytest_cache/
+venv/
+.venv/
+
+# next.js
+.next/
+out/
+next-env.d.ts
+
+# vercel
+.vercel/
+
+# env
+.env
+.env.local
+.env*.local
+
+# model artifacts (stored in blob storage, not committed — see CLAUDE.md)
+models/*.pt
+models/*.onnx
+
+# os / editor
+.DS_Store
+*.log
